@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar id="nav" toggleable="lg" type="dark" variant="dark">
+    <b-navbar id="nav" toggleable="lg" type="dark" class="blue-dark">
 
       <b-navbar-brand href="#" class="fs-40">
         <b-navbar-toggle class="mr-3" target="nav-collapse"></b-navbar-toggle>
@@ -135,6 +135,10 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 
+.blue-dark{
+  background: #190718;
+}
+
 #nav {
   font-family: 'Prompt', sans-serif;
   font-size: 1rem;
@@ -156,6 +160,7 @@ export default {
   position: relative;
   display: inline-block;
 }
+
 
 .dropdown-content {
   display: none;

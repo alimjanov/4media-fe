@@ -8,7 +8,9 @@
 </template>
 
 <style>
-
+  body{
+    background: #151515;
+  }
 </style>
 <script>
 import AnonymusNavbar from "@/components/AnonymusNavbar";
