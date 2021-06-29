@@ -139,6 +139,7 @@ export default {
   background: #190718;
 }
 
+
 #nav {
   font-family: 'Prompt', sans-serif;
   font-size: 1rem;
